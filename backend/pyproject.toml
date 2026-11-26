@@ -3,12 +3,15 @@ name = "backend"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "fastapi>=0.165.0",
-    "firecrawl-py>=4.57.0",
-    "ipykernel>=7.4.0",
-    "pydantic-ai>=2.74.0",
-    "python-dotenv>=1.2.4",
-    "uvicorn>=0.54.0",
+authors = [
+    { name = "Julius Fält Skoglund", email = "julius.faltskoglund@gmail.com" }
 ]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+backend = "backend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"

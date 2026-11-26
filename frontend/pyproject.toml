@@ -3,9 +3,15 @@ name = "frontend"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "python-dotenv>=1.2.4",
-    "requests>=2.34.2",
-    "streamlit>=1.67.0",
+authors = [
+    { name = "Julius Fält Skoglund", email = "julius.faltskoglund@gmail.com" }
 ]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+frontend = "frontend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
