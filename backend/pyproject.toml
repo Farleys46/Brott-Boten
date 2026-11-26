@@ -15,6 +15,7 @@ dependencies = [
     "logfire[fastapi]", 
     "cohere",
     "firecrawl",
+    "regex",
     ]
 
 [project.scripts]

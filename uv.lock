@@ -298,6 +298,7 @@ dependencies = [
     { name = "lancedb" },
     { name = "logfire", extra = ["fastapi"] },
     { name = "pydantic-ai" },
+    { name = "regex" },
 ]
 
 [package.metadata]
@@ -309,6 +310,7 @@ requires-dist = [
     { name = "logfire" },
     { name = "logfire", extras = ["fastapi"] },
     { name = "pydantic-ai" },
+    { name = "regex" },
 ]
 
 [[package]]
