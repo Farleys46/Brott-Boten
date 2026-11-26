@@ -12,7 +12,7 @@ members = [
 [[package]]
 name = "backend"
 version = "0.1.0"
-source = { virtual = "backend" }
+source = { editable = "backend" }
 
 [[package]]
 name = "brott-boten"
@@ -22,4 +22,4 @@ source = { virtual = "." }
 [[package]]
 name = "frontend"
 version = "0.1.0"
-source = { virtual = "frontend" }
+source = { editable = "frontend" }
